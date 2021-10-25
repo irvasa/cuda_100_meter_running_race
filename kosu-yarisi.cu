@@ -25,7 +25,7 @@ __global__ void randoms(curandState_t* states, unsigned int* speeds) {
         speeds[blockIdx.x] += 1;
 
 }
-void Delay(undigned int time) {
+void Delay(unsigned int time) {
     for(int j=0; j<time;j++){}
 }
 
